@@ -47,7 +47,7 @@ const Home = () => {
         <div className="rounded-md p-2 bg-emerald-400" id= "devfolioButton">
           <a href="https://acehack.devfolio.co/projects" target={"_blank"}>
             <button className="flex h-full w-full justify-center items-center text-xl font-semibold" >
-              <img src="../../public/DevfolioSquare.png" alt="Devfolio" className="w-8 h-8" />
+              <img src="assets/DevfolioSquare.png" alt="Devfolio" className="w-8 h-8" />
               <p>Go to projects</p>
             </button>
           </a>
@@ -56,7 +56,7 @@ const Home = () => {
           className="bg-cyan-500 rounded-md hover:bg-cyan-400"
           style={{ height: "44px", width: "312px" }}
         >
-          <a href="https://linktr.ee/acehack" className="flex h-full w-full justify-center items-center text-xl font-semibold" target={"_blank"}>
+          <a href="https://linktr.ee/acehack4" className="flex h-full w-full justify-center items-center text-xl font-semibold" target={"_blank"}>
             <p>Join Our Community &nbsp; </p>
           </a>
         </div>
