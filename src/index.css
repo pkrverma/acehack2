@@ -76,3 +76,7 @@
   overflow: hidden;
   transition: height ease 0.6s;
 }
+
+#devfolioButton{
+  background-color:#3770FF !important;
+}

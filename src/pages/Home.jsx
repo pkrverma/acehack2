@@ -44,9 +44,10 @@ const Home = () => {
         <img alt="AceHack Logo" className="min-w-[30%] w-[40%] max-w-[80%] mb-6 md:mb-0" src={AceHackLogo} />
         <CountdownTimer targetDate={new Date("2023-04-01T11:30:00")} />
         <div className="flex flex-row flex-wrap w-full justify-center gap-4 mb-6 md:mb-0">
-        <div className="rounded-md p-2 bg-emerald-400">
+        <div className="rounded-md p-2 bg-emerald-400" id= "devfolioButton">
           <a href="https://acehack.devfolio.co/projects" target={"_blank"}>
-            <button className="flex h-full w-full justify-center items-center text-xl font-semibold">
+            <button className="flex h-full w-full justify-center items-center text-xl font-semibold" >
+              <img src="../../public/DevfolioSquare.png" alt="Devfolio" className="w-8 h-8" />
               <p>Go to projects</p>
             </button>
           </a>
