@@ -45,9 +45,9 @@ const Home = () => {
         <CountdownTimer targetDate={new Date("2023-04-01T11:30:00")} />
         <div className="flex flex-row flex-wrap w-full justify-center gap-4 mb-6 md:mb-0">
         <div className="rounded-md p-2 bg-emerald-400">
-          <a href="https://docs.google.com/document/d/1y60onxEHatmfUT2Dn3TkizQjxGfcjVNkjltnHML8d3w/edit" target={"_blank"}>
+          <a href="https://acehack.devfolio.co/projects" target={"_blank"}>
             <button className="flex h-full w-full justify-center items-center text-xl font-semibold">
-              <p>Problem Statements</p>
+              <p>Got to projects</p>
             </button>
           </a>
         </div>
