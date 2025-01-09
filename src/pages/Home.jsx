@@ -47,7 +47,7 @@ const Home = () => {
         <div className="rounded-md p-2 bg-emerald-400">
           <a href="https://acehack.devfolio.co/projects" target={"_blank"}>
             <button className="flex h-full w-full justify-center items-center text-xl font-semibold">
-              <p>Got to projects</p>
+              <p>Go to projects</p>
             </button>
           </a>
         </div>
